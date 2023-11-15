@@ -5,11 +5,6 @@
     border: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-  }
+    font-family:"Noto Sans Mono";
 
-  @font-face {
-    font-family: 'Noto Sans Mono';
-    src: url("..//Fonts/NotoSansMono-VariableFont_wdth\,wght.ttf") format('ttf');
-    font-weight: normal;
-    font-style: normal;
   }

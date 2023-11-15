@@ -118,30 +118,9 @@ header{
     cursor: pointer;
 }
 
-.slogan-left{
-    width: auto;
-    height: auto;
-    background-color: #363738;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    line-height: 2.5;
-    font-weight: bolder;
-    
-
-}
-
-
 .home-description-right{
     align-items: flex-start;
     margin-left: 3rem;
-
-}
-.title-right{
-    font-size: 30px;
-   
-    
 }
 
 .description-right{
