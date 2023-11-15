@@ -22,6 +22,7 @@
     margin: 0%;
     width: 50vw;
 }
+
 header{
     width: 100vw;
     height: 13rem;
@@ -54,6 +55,7 @@ header{
     background-color:  #363738;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 .menu-logo-img{
@@ -80,34 +82,29 @@ header{
     padding-right: 10px;
     font-size: 20px;
     line-height: 2.5;
-    font-weight: bolder;
-    
-
+    font-weight: 700;
 }
 
 .title-left{
     width: auto;
     height: auto;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 3rem;
-    font-weight: bolder;
-    
+    font-weight: 800;
+    margin-top: -0.75rem;
 }
 
 .description-left{
-    width: 31rem;
+    width: 33rem;
     height: auto;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 15px;
+    line-height: 20px;
     text-align: right;
     letter-spacing: 2px;
-    margin-top: -2.5rem;
+    margin-top: -3rem;
+    overflow-y: hidden;
 }
 
 .description-button-left{
@@ -116,14 +113,83 @@ header{
     width:8.5rem;
     height: 3rem;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .home-description-right{
     align-items: flex-start;
     margin-left: 3rem;
+    
 }
 
 .description-right{
     text-align: left;
-    font-size: 16.5px;
+    font-size: 14px;
+    width: 30rem;
+}
+
+.section-2{
+    width: 100vw;
+    height: 160vh;
+    background-color: #F1F2F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.section2-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.sec2title-right{
+    gap: 0.5rem;
+    margin-right: 6.5rem;
+}
+
+.green-arrow{
+    width: 3rem;
+    height: auto;
+    color: #29EEA7;
+    font-weight: 800;
+    margin-left: 6rem;
+    font-size: 35px;
+    text-align: start;
+}
+
+.hello-title{
+    font-size: 28px;
+    width: 15rem;
+    font-weight: 800;
+    padding-top: 0.25rem;
+}
+
+.black-cirlce{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.grey-circle{
+    background-color: #85888C;
+}
+
+.green-circle{
+    background-color:#29EEA7 ;
+}
+
+.video-section{
+    width:68rem ;
+    height: 40rem;
+    border:#29EEA7 15px solid;
+    margin-top: 10rem;
+    position: relative;
+    margin-left: 6rem;
+    border-radius: 25px;
+
 }
