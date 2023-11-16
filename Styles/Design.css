@@ -149,28 +149,31 @@ header{
 .sec2title-right{
     gap: 0.5rem;
     margin-right: 6.5rem;
+    height: fit-content;
 }
 
 .green-arrow{
     width: 3rem;
-    height: auto;
+    height: 3rem;
     color: #29EEA7;
     font-weight: 800;
     margin-left: 6rem;
     font-size: 35px;
     text-align: start;
+    padding-left: 1rem;
 }
 
 .hello-title{
-    font-size: 28px;
-    width: 15rem;
+    font-size: 25px;
+    height: 3rem;
+    width: 14rem;
     font-weight: 800;
     padding-top: 0.25rem;
 }
 
 .black-cirlce{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: black;
     border-radius: 50%; 
 }
@@ -192,4 +195,199 @@ header{
     margin-left: 6rem;
     border-radius: 25px;
 
+}
+
+.section-3{
+    background-color: white;
+    margin-top: 4rem;
+    height: 120vh;
+}
+
+.section3-body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-left: 6rem;
+    margin-top: 15rem;
+    margin-right: 5rem;
+}
+
+.left-div3{
+    background-color:#F1F2F3 ;
+    border-radius: 20px;
+    width: 41rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    color: #363738;
+    
+}
+
+.milstone-percentage{
+    width: 25rem;
+    font-size: 110px;
+    font-weight: 800;
+    
+}
+
+.milstone-phrase{
+    width: 25rem;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.milstone-paragraph{
+    width: 25rem;
+}
+
+.bold-numbers{
+    font-weight: bold;
+}
+
+.section-4{
+    width: 100vw;
+    height: 130vh;
+    background-color: #FFC635;
+    margin-top: 4rem;
+}
+
+.programs-section4{
+    background-color: #363738;
+    color: #F1F2F3;
+    width: 9rem;
+    
+}
+
+.grey-background-arrow{
+    background-color: #363738;
+}
+
+.white-circle{
+    background-color:white ;
+}
+
+.programs-head{
+    width: 35rem;
+    height: 3.5rem;
+    position: relative;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 6rem;
+}
+
+.choices-head{
+    background-color: transparent;
+    width: 7.5rem;
+    height: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.clicked-head{
+    color:#FFC635;
+    background-color: #363738;
+    cursor: pointer;
+}
+
+.program-description{
+    background-color: #363738;
+    width: 67.5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 6rem;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+.program-details{
+    width:40rem;
+    height: 25rem;
+}
+
+.program-image-decoration{
+    height: 22.7rem;
+    width: 24rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.program-title{
+    color: #F1F2F3;
+    margin: 3rem;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+
+}
+
+.different-color{
+    color: #FFC635;
+}
+
+.program-explanation{
+    color: #F1F2F3;
+    font-size: 14px;
+    width: 38rem;
+    margin: 3rem;
+    margin-top: 2rem;
+
+}
+
+.course-appointments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem;
+    gap: 0.5rem;
+}
+
+.appointment-tag{
+    background-color:#232323;
+    color: white;
+    width:24rem;
+    height: 2.9rem;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2.2rem;
+    font-weight: 800;
+    padding-top: 0.8rem;
+    
+}
+
+.info-div{
+    text-align: end;
+}
+.info-button{
+    width:20rem;
+    height: 2.9rem;
+    background-color:#232323;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
+
+.section-5{
+    background-color: #363738;
+    margin-top: 5rem;
 }
