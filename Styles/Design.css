@@ -229,7 +229,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1.5rem;
     margin-left: 4rem;
     margin-top: 15rem;
     margin-right: 5rem;
@@ -238,7 +237,7 @@ header{
 .left-div3{
     background-color:#F1F2F3 ;
     border-radius: 20px;
-    width: 41rem;
+    width: 53rem;
     height: 28rem;
     display: flex;
     flex-direction: column;
@@ -249,6 +248,49 @@ header{
     
 }
 
+.right-div3{
+    background-color: transparent;
+    justify-content: space-between;
+    padding-bottom: 0;
+    gap: 1rem;
+
+}
+
+.upper-div{
+
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.style-1000{
+    
+    height:13rem ;
+    background-color: #F1F2F3;
+    border-radius: 20px;
+    width: 18rem;
+    font-size: 16px;
+    padding: 1.5rem;
+}
+
+.style-10{
+    width: 14rem;
+}
+
+.style-220{
+    width: 16rem;
+}
+.style-300{
+    width: 15rem;
+}
+
+.numbers-style{
+    font-size: 70px;
+    font-weight: 800;
+}
 .milstone-percentage{
     width: 25rem;
     font-size: 110px;
