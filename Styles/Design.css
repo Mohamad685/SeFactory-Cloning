@@ -63,6 +63,17 @@ header{
     height: 40px;
 }
 
+.colored-background{
+    background-color: #28eea5e4;
+    height: 100vh;
+}
+
+.gray-background{
+    background-color: rgba(35, 35, 35, 0.8);
+    height: 100vh;
+}
+
+
 .home-description-left{
     display: flex;
     flex-direction: column;
@@ -82,7 +93,12 @@ header{
     padding-right: 10px;
     font-size: 20px;
     line-height: 2.5;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.slogan-right{
+    background-color: #F1F2F3;
+    color: black;
 }
 
 .title-left{
@@ -98,7 +114,7 @@ header{
 .description-left{
     width: 33rem;
     height: auto;
-    color: white;
+    color: black;
     font-size: 15px;
     line-height: 20px;
     text-align: right;
@@ -117,6 +133,10 @@ header{
     font-size: 16px;
 }
 
+.description-button-right{
+    background-color: #F1F2F3;
+    color:black;
+}
 .home-description-right{
     align-items: flex-start;
     margin-left: 3rem;
@@ -127,6 +147,7 @@ header{
     text-align: left;
     font-size: 14px;
     width: 30rem;
+    color: #F1F2F3;
 }
 
 .section-2{
@@ -157,7 +178,7 @@ header{
     height: 3rem;
     color: #29EEA7;
     font-weight: 800;
-    margin-left: 6rem;
+    margin-left: 4rem;
     font-size: 35px;
     text-align: start;
     padding-left: 1rem;
@@ -187,12 +208,12 @@ header{
 }
 
 .video-section{
-    width:68rem ;
+    width:70rem ;
     height: 40rem;
     border:#29EEA7 15px solid;
     margin-top: 10rem;
     position: relative;
-    margin-left: 6rem;
+    margin-left: 4rem;
     border-radius: 25px;
 
 }
@@ -209,7 +230,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     gap: 1.5rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-top: 15rem;
     margin-right: 5rem;
 }
@@ -281,7 +302,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
-    margin-left: 6rem;
+    margin-left: 4rem;
 }
 
 .choices-head{
@@ -304,19 +325,19 @@ header{
 
 .program-description{
     background-color: #363738;
-    width: 67.5rem;
+    width: 70rem;
     height: 25rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    margin-left: 6rem;
+    margin-left: 4rem;
     border-radius: 20px;
     border-top-left-radius: 0px;
 }
 
 .program-details{
-    width:40rem;
+    width:45rem;
     height: 25rem;
 }
 
@@ -375,7 +396,7 @@ header{
     text-align: end;
 }
 .info-button{
-    width:20rem;
+    width:24rem;
     height: 2.9rem;
     background-color:#232323;
     color: white;
@@ -385,9 +406,101 @@ header{
     font-weight: 800;
     justify-content: center;
     margin-top: 2.2rem;
+    padding-left: 5rem;
 }
 
 .section-5{
-    background-color: #363738;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.section5-background{
+    background-color:#363738
+}
+.hire-title{
+    color: #F1F2F3;
+}
+
+.recruitment-partner-container{
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    height: 29.2rem;
+    position: relative;
+    margin-left: 4rem;
+    margin-top: 10rem;
+    border-radius: 20px;
+    color: #F1F2F3;
+}
+
+.recruitment-partner-title{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.recruitment-partner-ad{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    background-color:#363738;
+    height: 3.5rem;
+    width: 45rem;
+    font-size: 15.8px;
+    padding: 1rem;
+}
+
+.green-color{
+    color: #29EEA7;
+    font-weight: 600;
+}
+
+ol{
+    padding-left: 2rem;
+}
+.adv-list{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    list-style: decimal inside;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.adv-contact{
+    width: 65rem ;
+    height: 3rem;
+    font-size: 15px;
+    padding-top: 0.7rem;
+    text-align: end;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.hr-call{
+    position: relative;
+    height: 5rem;
+    background-color: #232323;
+    width: 70rem;
+    font-size: 15.8px;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.hr-question{
+    color: #F1F2F3;
+    font-size: 20px;
+    margin-right: 1rem;
+    font-weight: 300;
+}
+
+.hr-logo{
+    cursor: pointer;
 }
