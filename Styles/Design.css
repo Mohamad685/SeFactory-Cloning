@@ -315,9 +315,10 @@ header{
 
 .section-4{
     width: 100vw;
-    height: 130vh;
-    background-color: #FFC635;
+    height: 140vh;
+    background-color:#29EEA7;
     margin-top: 4rem;
+
 }
 
 .programs-section4{
@@ -357,18 +358,19 @@ header{
     border-top-right-radius: 10px ;
     font-size: larger;
     cursor: pointer;
+    color: black;
 }
 
 .clicked-head{
-    color:#FFC635;
     background-color: #363738;
     cursor: pointer;
+    color: #29EEA7;
 }
 
 .program-description{
     background-color: #363738;
     width: 70rem;
-    height: 25rem;
+    height: 29rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -380,11 +382,11 @@ header{
 
 .program-details{
     width:45rem;
-    height: 25rem;
+    height: 29rem;
 }
 
 .program-image-decoration{
-    height: 22.7rem;
+    height: 26.5rem;
     width: 24rem;
     margin: 1rem;
     border-radius: 10px;
@@ -396,19 +398,24 @@ header{
     font-size: 22px;
     font-weight: 800;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-family:"Noto Sans Mono";
 
 }
 
 .different-color{
-    color: #FFC635;
-}
+    color: #29EEA7;
+    margin-right: 1rem;
+}                   
 
 .program-explanation{
     color: #F1F2F3;
-    font-size: 14px;
-    width: 38rem;
-    margin: 3rem;
-    margin-top: 2rem;
+    font-size: 13px;
+    width: 40rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    height: 9.2rem;
 
 }
 
@@ -428,10 +435,9 @@ header{
     font-size: 13px;
     justify-content: center;
     text-align: center;
-    margin-top: 2.2rem;
     font-weight: 800;
     padding-top: 0.8rem;
-    
+
 }
 
 .info-div{
@@ -447,7 +453,6 @@ header{
     font-size: 16px;
     font-weight: 800;
     justify-content: center;
-    margin-top: 2.2rem;
     padding-left: 5rem;
 }
 
