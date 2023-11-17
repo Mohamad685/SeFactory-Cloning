@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
       // Update image source according to the button clicked
       const programImage = document.querySelector('.program-img')
-      programImage.innerHTML = `<img src="${sections[index].image}"  alt="design-10" class="program-image-decoration">`
+      programImage.innerHTML = `<img src="${sections[index].image}"  alt="pic" class="program-image-decoration">`
 
       // Update program explanation text
       const programExplanation = document.querySelector('.program-explanation')
@@ -91,3 +91,47 @@ const menuBackground = document.querySelector('.menu-background')
   menuButton.addEventListener('click', () => {
   menuBackground.classList.toggle('available')
   })
+
+
+//Adding the animation effect //https://codepen.io/icka-dev/pen/gOqxKzR
+
+  const phrases = ['SOFTWARE ENGINEER?','DATA ENGINEER?','UI/UX DESIGNER?']
+    
+    const colors = ['rgba(40, 238, 167, 0.93)', 'rgba(152, 100, 218, 0.93)', 'rgba(251, 80, 142, 0.93)']
+  
+    let index = 0
+    let offset = 0
+    const letters = document.querySelector('.title-left')
+    const backgroundLeft = document.querySelector('.colored-background') 
+    let forwards = true
+    let skipCount = 0
+    const skipDelay = 15
+    const speed = 100
+  
+    const updateSentence = () => {
+      letters.textContent = phrases[index].substring(0, offset)
+  
+      backgroundLeft.style.backgroundColor = colors[index]
+    }
+  
+    const handleAnimation = () => {
+      if (forwards) {
+        if (offset >= phrases[index].length) {
+          if (++skipCount === skipDelay) {
+            forwards = false
+            skipCount = 0
+          }
+        }
+      } else if (offset === 0) {
+        forwards = true
+        index = (index + 1) % phrases.length
+      }
+  
+      if (skipCount === 0) {
+        forwards ? offset++ : offset--
+      }
+  
+      updateSentence()
+    }
+  
+    setInterval(handleAnimation, speed)

@@ -189,7 +189,6 @@ header{
 }
 
 .colored-background{
-    background-color: #28eea5e4;
     height: 100vh;
 }
 
@@ -198,7 +197,25 @@ header{
     height: 100vh;
 }
 
-
+.title-left::after {
+    content: '';
+    position: relative;
+    right: -20px;
+    bottom: 6px;
+      width: 14px;
+      height: 2px;
+    background-color: #DAFDBA;
+    animation: blink 0.5s linear infinite;
+}
+  
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 .home-description-left{
     display: flex;
     flex-direction: column;
@@ -234,12 +251,30 @@ header{
     margin-bottom: 3rem;
     font-weight: 800;
     margin-top: -0.75rem;
+    position: relative;
+}
+.title-left::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    bottom: 6px;
+    width: 18px;
+    height: 6px;
+    background-color: white;
+    animation: blink 0.5s linear infinite;
+}
+  
+@keyframes blink {
+    0% {opacity: 1;
+    }
+    100% {opacity: 0;
+    }
 }
 
 .description-left{
     width: 33rem;
     height: auto;
-    color: black;
+    color: white;
     font-size: 15px;
     line-height: 20px;
     text-align: right;
