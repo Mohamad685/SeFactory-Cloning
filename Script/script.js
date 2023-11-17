@@ -1,3 +1,4 @@
+// programs section functionality
 document.addEventListener('DOMContentLoaded', function () {
   const programButtons = document.querySelectorAll('.choices-head')
 
@@ -77,3 +78,16 @@ document.addEventListener('DOMContentLoaded', function () {
   
   })
 })
+
+// burger menue funcionality
+const burgerButton = document.querySelector('#open-menu')
+const menuButton = document.querySelector('.menu-logo-button')
+const menuBackground = document.querySelector('.menu-background')
+
+  burgerButton.addEventListener('click', () => {
+  menuBackground.classList.add('available')
+  })
+
+  menuButton.addEventListener('click', () => {
+  menuBackground.classList.toggle('available')
+  })

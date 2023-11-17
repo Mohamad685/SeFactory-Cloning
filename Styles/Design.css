@@ -1,3 +1,128 @@
+.menu-background{
+    background-color: rgba(37, 37, 37, 0.913);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: none;
+}
+
+.left-menu{
+    text-align: left;
+    margin-left: 5rem;
+    height:40rem ;
+    margin-top: 14rem;
+    position: fixed;
+}
+
+.left-menu-buttons{
+    cursor: pointer;
+    font-weight: 900;
+    color: #85888C;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.left-menu-buttons:hover {
+    color: white; 
+}
+
+.right-menu{
+    
+    height:40rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.login-box{
+    background-color:#363738;
+    width: 30rem;
+    height: 22rem;
+    margin-top: 14rem;
+    margin-left: 46rem;
+    position: fixed;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+
+}
+
+
+.login-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right-menu-phrase{
+    font-size: 15px;
+    color: gray;
+    margin-top: -5rem;
+}
+
+.log-in{
+    width: 25rem;
+    height: 3rem;
+    padding: 0;
+    margin-bottom: -4.85rem;
+    background-color: #29EEA7;
+    font-weight:800;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign-up{
+    margin-bottom: 0rem;
+    background-color: #FCFCFD;
+}
+
+.hr-menu{ 
+    background-color:#31B7F0;
+    width: 30rem;
+    height: 8.5rem;
+    margin-top: 37rem;
+    margin-left: 46rem;
+    color: white;
+    position: fixed;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 1.25rem;
+    cursor: pointer;
+    
+}
+
+.hr-phrase1{
+    font-size: 19px;
+    font-weight: 900;
+    margin-right: 7rem;
+}
+.hr-phrase2{
+    font-size: 13px;
+}
+
+.available{
+    display: block;
+}
+
 .home-page-container{
     width: 100vw;
     height: 100vh;
